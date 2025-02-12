@@ -171,3 +171,12 @@ h3 {
 .second-section-content{
     margin-bottom: 55px;
 }
+
+.third-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:166px;
+    margin-bottom: 122px;
+}
+
