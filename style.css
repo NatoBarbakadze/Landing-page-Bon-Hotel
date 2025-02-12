@@ -4,3 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+
+.box {
+    max-width: 1440px;
+    width:100%;
+    margin: 0 auto; 
+}
+
+.main-header {
+    max-width: 1440px;
+    justify-content: space-between;    
+    padding-right: 107px;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+
+}
+
+.header-navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header-navigation a {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(149, 117, 84, 1);
+}
+
+.navigation a:hover {
+    color:rgba(223, 170, 91, 1);
+}
